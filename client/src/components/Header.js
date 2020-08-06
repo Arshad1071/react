@@ -18,13 +18,12 @@ renderContent() {
                 <li key='1'>< Payments /></li>,
                 <li key='2'><a href='/api/logout'>Logout</a></li>
             ];
-
     }
-
 }
 
 render(){
     return (
+        <div>
         <nav>
             <div className="nav-wrapper">
                 <Link to={ this.props.auth ?  '/survays' : '/'} 
@@ -34,6 +33,7 @@ render(){
                 </ul>
             </div>
         </nav>
+        </div>
     );
 };
 }
