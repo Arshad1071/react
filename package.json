@@ -10,7 +10,7 @@
     "scripts": {
         "start": "node index.js",
         "server": "nodemon index.js",
-        "client": "npm run start --prifix client",
+        "client": "npm run sstart --prifix client",
         "dev": "concurrently \"npm run server\" \"npm run client\""
     },
     "author": "",

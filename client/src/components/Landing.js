@@ -7,7 +7,7 @@ const Landing = () => {
             <h1>
                 Emaily!
             </h1>
-            <h1>Hello, {this.props}</h1>;
+            
             Collect feedback from users 
         </div>
 
